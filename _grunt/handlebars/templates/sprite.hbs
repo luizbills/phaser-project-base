@@ -1,0 +1,23 @@
+define(function(require) {
+  'use strict';
+
+  var parent = Phaser.Sprite;
+
+  // class constructor
+  function {{ classify name }}(game, x, y) {
+    parent.call(this, game, x, y, 'spritesheet-key'); // super
+    //game.world.add(this);
+  }
+
+  // inherits from parent class
+  {{ classify name }}.prototype = Object.create(parent.prototype);
+  {{ classify name }}.prototype.constructor = {{ classify name }};
+
+  // class methods
+  {{ classify name }}.prototype.update = function() {
+    // update method
+  };
+
+  // exports
+  return {{ classify name }};
+});

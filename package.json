@@ -1,0 +1,17 @@
+{
+  "name": "phaser-project-base",
+  "version": "0.0.1",
+  "author": {
+    "name": "Luiz \"Bills\"",
+    "url": "http://about.me/luizbills",
+    "email": "luizpbills@gmail.com"
+  },
+  "license": "http//luizbills.mit-license.org",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "matchdep": "^0.3.0",
+    "underscore.string": "^2.3.3",
+    "handlebars": "^2.0.0-alpha.2"
+  }
+}
